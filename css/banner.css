@@ -1,0 +1,45 @@
+.banner,.banner-min {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.prev, .next{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 100%;
+    opacity: 0;
+    background-color: black;
+    padding: 0 5px;
+}
+.prev:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.next:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.prev{
+    left: 0;
+    top: 0;
+}
+.next{
+    right: 0;
+    top: 0;
+}
+.banner_img,.banner-min_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.banner_img a {
+    float: left;
+}
+.banner-min_img a {
+    float: left;
+}

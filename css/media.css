@@ -1,0 +1,157 @@
+@media screen and (max-width: 1050px) {
+  .box, .document-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+  }
+
+  .header {
+    grid-template-columns: 25px 190px 1fr auto auto 25px;
+  }
+
+  .basket {
+    display: none;
+  }
+
+  .catalog {
+    display: none;
+  }
+
+  .catalog-label:hover {
+    cursor: pointer;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .block-menu {
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 48px;
+  }
+
+  .basket-page {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .availability {
+    display: none;
+  }
+
+  .view-page {
+    grid-template-columns: 1fr !important;
+  }
+
+  .view-page img {
+    width: auto !important;
+    height: 80% !important;
+  }
+
+  .view-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search form {
+    display: none;
+  }
+
+  .onas-con {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto 500px !important;
+  }
+
+  .onas-contacts {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    justify-content: center;
+    grid-column-gap: 20px;
+  }
+
+  .onas-items-contact {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 660px) {
+  body {
+    grid-template-rows: 100px 48px auto;
+  }
+
+  .header {
+    grid-template-rows: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .contacts {
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #e4e5ee;
+  }
+
+  .contact {
+    align-items: center;
+  }
+
+  .contact-ico {
+    width: auto;
+    display: flex;
+  }
+
+  .phone {
+    font-size: 11px;
+  }
+
+  .row_4, .document-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 15px;
+  }
+
+  .row_3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 15px;
+  }
+
+  .box-tile__txt {
+    font-size: 85%;
+  }
+
+  .second-menu {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .first-menu {
+    display: none;
+  }
+
+  .menu ul {
+    justify-content: flex-end;
+  }
+
+  .basket-item_delete, .basket-item_text {
+    font-size: 14px !important;
+  }
+
+  .baner {
+    display: none;
+  }
+
+  .block-nachi_clientu {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 15px !important;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
