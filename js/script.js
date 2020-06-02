@@ -14,15 +14,15 @@ $(document).ready(function(){
     });
 
     $(".box__txt").click(function(){
-        location.href = 'file:///Users/argo/Desktop/vova/mclean/view.html';
+        location.href = 'https://astrelinvl.github.io/view.html';
     });
     
     $(".box-tile").click(function(){
-        location.href = 'file:///Users/argo/Desktop/vova/mclean/tovar.html';
+        location.href = 'https://astrelinvl.github.io/tovar.html';
     });
 
     $(".catalog li").click(function(){
-        location.href = 'file:///Users/argo/Desktop/vova/mclean/tovar.html';
+        location.href = 'https://astrelinvl.github.io/tovar.html';
     });
 
     // $("#ci-1").click(function(){
